@@ -26,7 +26,7 @@ public class TicketServiceImpl implements TicketService {
     @Autowired
     private TicketRepository tRepo;
 
-    private static final String TICKET_INDEX = "ticketindex";
+    private static final String TICKET_INDEX = "description";
 
     private ElasticsearchOperations elasticsearchOperations;
 
